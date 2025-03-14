@@ -5,7 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class BackButton : MonoBehaviour
 {
-    public void GoBack(){
+    public void GoBack2(){
         SceneManager.LoadScene("ColoredBackground");
+    }
+
+    public void GoBack(){
+        SceneManager.LoadScene("ColoredBackground2");
+    }
+    public void GoBackOptions(){
+        SceneManager.LoadScene("ColoredBackground2");
+    }
+    public void Options(){
+        SceneManager.LoadScene("Options");
     }
 }

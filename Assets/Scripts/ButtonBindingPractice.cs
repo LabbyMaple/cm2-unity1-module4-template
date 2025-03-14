@@ -13,4 +13,7 @@ public class ButtonBindingPractice : MonoBehaviour
         Debug.Log("Quitting Game...");
         Application.Quit();
     }
+    public void Options(){
+        SceneManager.LoadScene("Options");
+    }
 }
